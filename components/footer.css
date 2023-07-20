@@ -48,8 +48,19 @@
     display: flex;
 }
 
+.logos__redes-sociais{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.container-footer__redes ul{
+    display: flex;
+    justify-content: space-between;
+}
+
 .container-footer__redes{
     display: block;
+    
 }
 
 .container-footer__inscricao{
