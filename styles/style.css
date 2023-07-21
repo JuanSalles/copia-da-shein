@@ -1,5 +1,23 @@
 @import "../components/footer.css";
+@import "../components/header.css";
+
+
+:root{
+    --font-primaria: Arial,Helvetica,sans-serif;
+    --font-size-primaria: 12px;
+}
 
 *{
     box-sizing: border-box;
 }
+
+body{
+    font-family: var(--font-primaria)!important;
+    font-size: var(--font-size-primaria);
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+

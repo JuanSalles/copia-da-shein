@@ -10,12 +10,20 @@
     display: flex;
 }
 
+.container-footer h2{
+    color: #222;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .container-footer__esquerda{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
 }
+
+
 
 .container-footer__links{
     display: flex;
@@ -29,13 +37,39 @@
     width: 25%;
 }
 
+.container-footer__lista a{
+    text-decoration: none;
+    color: #666;
+    line-height: 23px;
+    text-transform: capitalize;
+}
+
 .lista-rodape{
     display: block;
+    padding-left: 10px;
+    
+}
+
+.titulo-de-lista__rodape{
+    line-height: 2;
 }
 
 .lista-horizontal-rodape{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-right: 100px;
+}
+
+.lista-horizontal-rodape a{
+    color: #666;;
+    line-height: 1.15;
+    
+    padding: 0 10px 0 0;
+    margin-bottom: 10px;
+    border-right: 1px solid #ccc;
+    
 }
 
 .container-footer__direita{
@@ -48,18 +82,27 @@
     display: flex;
 }
 
+.redes__sociais{
+   width: 66.66666667%
+}
+
+.redes__app{
+    width: 33.33333333%;
+}
+
 .logos__redes-sociais{
-    width: 30px;
+    height: 30px;
     margin-right: 10px;
 }
 
 .container-footer__redes ul{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .container-footer__redes{
     display: block;
+    margin-bottom: 20px;
     
 }
 
